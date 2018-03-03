@@ -403,7 +403,7 @@
 .icon-linux-mint { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe991;&nbsp;'); }
 .icon-lisp { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe992;&nbsp;'); }
 .icon-livementor { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe993;&nbsp;'); }
-.icon-livevyvle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe994;&nbsp;'); }
+.icon-livecycle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe994;&nbsp;'); }
 .icon-lodash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe995;&nbsp;'); }
 .icon-loggy { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe996;&nbsp;'); }
 .icon-logrhythm { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe997;&nbsp;'); }
@@ -609,8 +609,8 @@
 .icon-spark { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea5f;&nbsp;'); }
 .icon-spark-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea60;&nbsp;'); }
 .icon-splunk { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea61;&nbsp;'); }
-.icon-spook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea62;&nbsp;'); }
-.icon-spook-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea63;&nbsp;'); }
+.icon-sqoop { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea62;&nbsp;'); }
+.icon-sqoop-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea63;&nbsp;'); }
 .icon-spring { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea64;&nbsp;'); }
 .icon-sqldeveloper { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea65;&nbsp;'); }
 .icon-sql-server { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea66;&nbsp;'); }
