@@ -1,7 +1,7 @@
 
 # Which icons are included ?
 
-750+ icons from different CS fields are available.
+800+ icons from different CS fields are available.
 See the entire list [here](https://biok03.github.io/bc-font/index.html).
 
 # How to use ?
