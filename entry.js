@@ -1,0 +1,1 @@
+require('./bc-font.font');
