@@ -7,9 +7,9 @@ module.exports = {
     './entry.js'
   ],
   output: {
-    path: path.resolve(__dirname, '.'),
-    publicPath: '/',
-    filename: 'app.bundle.js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'app.bundle.js',
+    publicPath: './'
   },
   module: {
     rules: [
@@ -17,11 +17,16 @@ module.exports = {
         test: /\.font\.js/,
         use: [
           MiniCssExtractPlugin.loader,
-          'css-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              url: false
+            }
+          },
           {
             loader: 'webfonts-loader',
             options: {
-              publicPath: '/',
+              publicPath: './'
             }
           }
         ]
