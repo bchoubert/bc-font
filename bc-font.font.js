@@ -7,5 +7,6 @@ module.exports = {
   'baseSelector': '.icon',
   'types': ['eot', 'woff', 'woff2', 'ttf', 'svg'],
   'fixedWidth': true,
-  'fileName': '[fontname].[ext]'
+  'fileName': '[fontname].[ext]',
+  'cssFontsUrl': 'dist/'
 };

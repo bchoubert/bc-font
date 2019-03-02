@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "bc-font";
-	src: url("/bc-font.eot?#iefix") format("embedded-opentype"),
-url("/bc-font.woff") format("woff"),
-url("/bc-font.woff2") format("woff2"),
-url("/bc-font.ttf") format("truetype"),
-url("/bc-font.svg#bc-font") format("svg");
+	src: url("bc-font.eot?#iefix") format("embedded-opentype"),
+url("bc-font.woff") format("woff"),
+url("bc-font.woff2") format("woff2"),
+url("bc-font.ttf") format("truetype"),
+url("bc-font.svg#bc-font") format("svg");
 }
 
 .icon {
