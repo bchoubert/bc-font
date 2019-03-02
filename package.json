@@ -1,0 +1,28 @@
+{
+  "name": "bc-font",
+  "version": "1.4.0",
+  "description": "800+ icons from different CS fields are available.\r See the entire list [here](https://bchoubert.github.io/bc-font/index.html).",
+  "main": "index.js",
+  "scripts": {
+    "package": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchoubert/bc-font.git"
+  },
+  "author": "Bertrand Choubert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bchoubert/bc-font/issues"
+  },
+  "homepage": "https://github.com/bchoubert/bc-font#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.23.1",
+    "webfonts-loader": "^4.4.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
