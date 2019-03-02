@@ -21,6 +21,6 @@ If you want to add another icon, a link to a picture is appreciated.
 
 # Rights
 
-BC-Font is a fontello-generated font licensed under MIT License.
+BC-Font is a webpack-generated font licensed under MIT License.
 All product names, logos, and brands/trademarks are property of their respective owners.
 
