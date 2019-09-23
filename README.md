@@ -1,3 +1,6 @@
+#BC-Font
+
+[![npm](https://img.shields.io/npm/v/bc-font)](https://www.npmjs.com/package/bc-font)
 
 # Which icons are included ?
 
