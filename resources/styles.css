@@ -1,0 +1,490 @@
+:root {
+  --theme: #EB2834;
+  --gray: #AAAAAA;
+  --light-gray: #E0E0E0;
+  --dark-gray: #404040;
+  --border-radius: 8px;
+  --shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+body, html {
+  height: 100%;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  position: relative;
+  background-color: var(--light-gray);
+}
+
+body header, html header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9e0f18), to(#EB2834));
+  background-image: linear-gradient(180deg, #9e0f18, #EB2834);
+  color: #FFFFFF;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90vh;
+  position: relative;
+  z-index: 4;
+}
+
+body header .icon:before, html header .icon:before {
+  font-size: 1000%;
+  width: 1em;
+  display: block;
+  margin-bottom: -3rem;
+  text-align: center;
+}
+
+body header .subtext, html header .subtext {
+  color: var(--light-gray);
+}
+
+body header .gradient, html header .gradient {
+  bottom: 0;
+  height: 10px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  display: block;
+  background-image: url("images/red_to_gray.png");
+  background-repeat: repeat-x;
+  background-size: 10px 10px;
+}
+
+body #instructions, html #instructions {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90vh;
+  background-color: var(--gray);
+  position: relative;
+  z-index: 4;
+}
+
+body #instructions ol, html #instructions ol {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+body #instructions h2, html #instructions h2 {
+  margin: 1rem 0;
+}
+
+body #instructions .code, html #instructions .code {
+  display: inline-block;
+  margin: .2rem 0;
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: .2rem .4rem;
+  border-radius: 2px;
+}
+
+body #instructions .code.command, html #instructions .code.command {
+  padding-left: 1rem;
+}
+
+body #instructions .code.command:before, html #instructions .code.command:before {
+  position: relative;
+  left: -.8rem;
+  content: '>';
+}
+
+body #instructions a, html #instructions a {
+  display: inline-block;
+  padding: .7rem;
+  border-radius: var(--border-radius);
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+  background-color: #FFFFFF;
+  color: var(--dark-gray);
+}
+
+body #instructions a, body #instructions a:hover, body #instructions a:active, body #instructions a:focus, body #instructions a:visited, body #instructions a:link, html #instructions a, html #instructions a:hover, html #instructions a:active, html #instructions a:focus, html #instructions a:visited, html #instructions a:link {
+  text-decoration: none;
+}
+
+body #instructions a:first-of-type, html #instructions a:first-of-type {
+  background-color: var(--theme);
+  color: #FFFFFF;
+}
+
+body #instructions a + a, html #instructions a + a {
+  margin-left: 1rem;
+}
+
+body #instructions .gradient, html #instructions .gradient {
+  bottom: 0;
+  height: 10px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  display: block;
+  background-image: url("images/gray_to_white.png");
+  background-repeat: repeat-x;
+  background-size: 10px 10px;
+}
+
+body .main-content, html .main-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  padding: 1rem 0;
+}
+
+body .main-content #drawer, html .main-content #drawer {
+  position: fixed;
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  height: 8rem;
+  top: 100%;
+  left: 0;
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+  -webkit-transition: top .2s ease-out;
+  transition: top .2s ease-out;
+  background-color: #FFFFFF;
+  border-top: 1px solid var(--gray);
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .main-content #drawer-close, html .main-content #drawer-close {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  width: 2rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+body .main-content #drawer-close img, html .main-content #drawer-close img {
+  height: 1rem;
+}
+
+body .main-content #drawer.drawer--open, html .main-content #drawer.drawer--open {
+  top: calc(100% - 10rem);
+}
+
+body .main-content #drawer .drawer-part, html .main-content #drawer .drawer-part {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main-content #drawer .drawer-part:first-child, html .main-content #drawer .drawer-part:first-child {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .main-content #drawer .drawer-part + .drawer-part, html .main-content #drawer .drawer-part + .drawer-part {
+  border-left: 1px solid var(--light-gray);
+}
+
+body .main-content #drawer .drawer-part #associated, html .main-content #drawer .drawer-part #associated {
+  border-top: 1px solid var(--light-gray);
+  margin: .5rem 0;
+  padding: .5rem 0;
+}
+
+body .main-content #drawer .drawer-part #associated h4, html .main-content #drawer .drawer-part #associated h4 {
+  display: inline;
+}
+
+body .main-content #drawer .drawer-part .to_clipboard, html .main-content #drawer .drawer-part .to_clipboard {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+body .main-content #drawer .drawer-part .to_clipboard img, html .main-content #drawer .drawer-part .to_clipboard img {
+  height: 1rem;
+}
+
+body .main-content #drawer #drawer-name, html .main-content #drawer #drawer-name {
+  color: var(--dark-gray);
+}
+
+body .main-content #drawer #drawer-name-category, html .main-content #drawer #drawer-name-category {
+  display: block;
+}
+
+body .main-content #drawer #drawer-name-icon, html .main-content #drawer #drawer-name-icon {
+  height: 3rem;
+  padding: .5rem;
+  border-radius: 2px;
+  width: 3rem;
+  font-size: 150%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--dark-gray);
+  color: #FFFFFF;
+  margin-right: .5rem;
+}
+
+body .main-content #drawer #drawer-name-icon i.icon, html .main-content #drawer #drawer-name-icon i.icon {
+  font-size: 170%;
+  width: 1em;
+}
+
+body .main-content #drawer #drawer-usage pre, html .main-content #drawer #drawer-usage pre {
+  display: inline;
+}
+
+body .main-content #drawer #drawer-usage .associated-icon, html .main-content #drawer #drawer-usage .associated-icon {
+  height: 1.5rem;
+  padding: .2rem;
+  border-radius: 2px;
+  width: 1.5rem;
+  font-size: 150%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--dark-gray);
+  color: #FFFFFF;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+
+body .main-content #drawer #drawer-usage .associated-icon i.icon, html .main-content #drawer #drawer-usage .associated-icon i.icon {
+  font-size: 100%;
+  width: 1em;
+}
+
+body .main-content #drawer #filter, html .main-content #drawer #filter {
+  position: absolute;
+  right: 2rem;
+  bottom: calc(100% - 1px);
+  z-index: 3;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+body .main-content #drawer #filter label, html .main-content #drawer #filter label {
+  height: 38px;
+  width: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #FFFFFF;
+  border-color: var(--gray);
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  border-right: 0;
+  border-top-left-radius: var(--border-radius);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main-content #drawer #filter label img, html .main-content #drawer #filter label img {
+  height: 1rem;
+}
+
+body .main-content #drawer #filter #categories, html .main-content #drawer #filter #categories {
+  height: 40px;
+  vertical-align: top;
+  display: inline-block;
+  border-top-right-radius: var(--border-radius);
+  border-color: var(--gray);
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  border-left: 0;
+}
+
+body .main-content #container, html .main-content #container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: calc(100% - 2rem);
+  padding: 0 1rem;
+}
+
+body .main-content #container .icon-container, html .main-content #container .icon-container {
+  width: calc(16.6% - 1rem);
+  margin: .5rem;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: background-color .5s, -webkit-box-shadow .5s, -webkit-transform .5s;
+  transition: background-color .5s, -webkit-box-shadow .5s, -webkit-transform .5s;
+  transition: box-shadow .5s, transform .5s, background-color .5s;
+  transition: box-shadow .5s, transform .5s, background-color .5s, -webkit-box-shadow .5s, -webkit-transform .5s;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  color: var(--dark-gray);
+}
+
+body .main-content #container .icon-container:hover, html .main-content #container .icon-container:hover {
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+  background-color: #FFFFFF;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 2;
+}
+
+body .main-content #container .icon-container .icon, html .main-content #container .icon-container .icon {
+  width: 2.2em;
+  margin: 1rem 0;
+}
+
+body .main-content #container .icon-container .icon:before, html .main-content #container .icon-container .icon:before {
+  font-size: 220%;
+}
+
+body .main-content #container .icon-container span, html .main-content #container .icon-container span {
+  font-size: 80%;
+}
+
+body footer, html footer {
+  margin: 1rem 0;
+  padding-bottom: 10rem;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: var(--gray);
+}
+
+@media screen and (max-width: 800px) {
+  body .main-content #container .icon-container {
+    width: calc(33.33% - .5rem);
+    margin: .25rem;
+  }
+  body .main-content #drawer {
+    height: 18rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  body .main-content #drawer.drawer--open {
+    top: calc(100% - 20rem);
+  }
+  body .main-content #drawer .drawer-part + .drawer-part {
+    border-left: 0;
+  }
+  body footer {
+    padding-bottom: 20rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
