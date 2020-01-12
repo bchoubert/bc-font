@@ -2,7 +2,7 @@
 let container = null;
 let drawer = null;
 
-const printIcon = icon => `<div class="icon-container" data-key="${icon.key}">
+const printIcon = icon => `<div class="icon-container ${!!icon.new ? 'icon-container--new' : ''}" data-key="${icon.key}">
       <i class="icon ${icon.icon}"></i>
       <span>${icon.name}</span>
     </div>`;

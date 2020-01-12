@@ -336,6 +336,25 @@ body, html {
         cursor: pointer;
         border-radius: var(--border-radius);
         color: var(--dark-gray);
+        position: relative;
+
+        &--new {
+          &:before {
+            content: 'NEW';
+            height: 1.5em;
+            display: flex;
+            position: absolute;
+            background-color: var(--theme);
+            color: #FFFFFF;
+            font-size: 80%;
+            padding: 0 .5em;
+            justify-content: center;
+            align-items: center;
+            top: -.5rem;
+            right: -.5rem;
+            border-radius: .75em;
+          }
+        }
 
         &:hover {
           box-shadow: var(--shadow);
