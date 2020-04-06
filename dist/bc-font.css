@@ -3021,16 +3021,25 @@ url("bc-font.svg#bc-font") format("svg");
 .icon-zepto:before {
 	content: "\f4e9";
 }
-.icon-zimbra-alt:before {
+.icon-zestbank-alt:before {
 	content: "\f4ea";
 }
-.icon-zimbra:before {
+.icon-zestbank-alt2:before {
 	content: "\f4eb";
 }
-.icon-zingchart-alt:before {
+.icon-zestbank:before {
 	content: "\f4ec";
 }
-.icon-zingchart:before {
+.icon-zimbra-alt:before {
 	content: "\f4ed";
+}
+.icon-zimbra:before {
+	content: "\f4ee";
+}
+.icon-zingchart-alt:before {
+	content: "\f4ef";
+}
+.icon-zingchart:before {
+	content: "\f4f0";
 }
 
