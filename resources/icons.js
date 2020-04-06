@@ -88,6 +88,9 @@ const icons = [
       { key: "icon-velov", icon: "icon-velov", name: "Velov", new: false, color: '#FF0000' },
       { key: "icon-velov-alt", icon: "icon-velov-alt", name: "Velov", new: false, color: '#FF0000' },
       { key: "icon-velov-alt2", icon: "icon-velov-alt2", name: "Velov", new: false, color: '#FF0000' },
+      { key: "icon-zestbank", icon: "icon-zestbank", name: "Zest Bank", new: true, color: '#F87C00' },
+      { key: "icon-zestbank-alt", icon: "icon-zestbank-alt", name: "Zest Bank", new: true, color: '#F87C00' },
+      { key: "icon-zestbank-alt2", icon: "icon-zestbank-alt2", name: "Zest Bank", new: true, color: '#F87C00' },
     ],
     hidden: true
   },
