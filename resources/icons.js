@@ -155,6 +155,7 @@ const icons = [
       { key: "icon-qualys", icon: "icon-qualys", name: "Qualys", new: false, color: '#ED2E26' },
       { key: "icon-qwant", icon: "icon-qwant", name: "Qwant", new: false, color: null },
       { key: "icon-redhat", icon: "icon-redhat", name: "Red Hat", new: false, color: '#EE0000' },
+      { key: "icon-serif", icon: "icon-serif", name: "Serif", new: true, color: '#222324' },
       { key: "icon-servicenow", icon: "icon-servicenow", name: "ServiceNow", new: false, color: '#7AB09C' },
       { key: "icon-vmware", icon: "icon-vmware", name: "VM Ware", new: false, color: '#00668C' },
       { key: "icon-w3c", icon: "icon-w3c", name: "W3C", new: false, color: '#004894' },
@@ -685,6 +686,9 @@ const icons = [
     id: 'graphics',
     name: 'Graphics & 3D',
     icons: [
+      { key: "icon-affinity-designer", icon: "icon-affinity-designer", name: "Affinity Designer", new: true, color: '#50CEFB' },
+      { key: "icon-affinity-photo", icon: "icon-affinity-photo", name: "Affinity Photo", new: true, color: '#F089FF' },
+      { key: "icon-affinity-publisher", icon: "icon-affinity-publisher", name: "Affinity Publisher", new: true, color: '#FF9552' },
       { key: "icon-aftereffects", icon: "icon-aftereffects", name: "After Effects", new: false, color: '#D291FF' },
       { key: "icon-autocad", icon: "icon-autocad", name: "Autocad", new: false, color: '#F73E40' },
       { key: "icon-behance", icon: "icon-behance", name: "Behance", new: false, color: '#1769FF' },
