@@ -32,13 +32,13 @@ const registerIconEvents = () => {
 const closeDrawer = () => drawer.classList.remove('drawer--open');
 
 const openDrawer = iconKey => {
-  const icon = icons.map(cat => cat.icons).flat(Math.Infinity).filter(ic => ic.key === iconKey)[0];
-  const category = icons.filter(category => category.icons.map(icon => icon.key).includes(iconKey))[0];
+  const icon = ICONS.map(cat => cat.icons).flat(Math.Infinity).filter(ic => ic.key === iconKey)[0];
+  const category = ICONS.filter(category => category.icons.map(icon => icon.key).includes(iconKey))[0];
   if(!icon || !category) {
     console.error('No icon matching ' + iconKey);
     return;
   }
-  const associatedIcons = icons.map(cat => cat.icons).flat(Math.infinity).filter(ic => ic.name === icon.name && ic.key !== icon.key);
+  const associatedIcons = ICONS.map(cat => cat.icons).flat(Math.infinity).filter(ic => ic.name === icon.name && ic.key !== icon.key);
 
   document.querySelector('#drawer-name').innerHTML = `
     <span id="drawer-name-icon" ${!!icon.color ? `style="background-color:${icon.color}"` : ''}><i class="icon ${icon.icon}"></i></span>
@@ -101,11 +101,11 @@ const showIcons = icons => {
 
 const loadCategory = category => {
   if(category === 'all') {
-    showIcons(icons.map(category => category.icons).flat(Math.infinity));
+    showIcons(ICONS.map(category => category.icons).flat(Math.infinity));
   }
   else {
-    if(!!icons.filter(iconCategory => iconCategory.id === category).length) {
-      showIcons(icons.filter(iconCategory => iconCategory.id === category)[0].icons);
+    if(!!ICONS.filter(iconCategory => iconCategory.id === category).length) {
+      showIcons(ICONS.filter(iconCategory => iconCategory.id === category)[0].icons);
     }
     else {
       console.error('Unknown category : ' + category);
@@ -116,7 +116,7 @@ const loadCategory = category => {
 };
 
 (() => {
-  document.querySelector('#icon-number').innerHTML = icons.map(category => category.icons).flat(Math.Infinity).length;
+  document.querySelector('#icon-number').innerHTML = ICONS.map(category => category.icons).flat(Math.Infinity).length;
   container = document.querySelector('#container');
   drawer = document.querySelector('#drawer');
 
@@ -124,7 +124,7 @@ const loadCategory = category => {
 
   document.querySelector('#categories').innerHTML = `
     <option value="all">All</option>
-    ${icons.sort(categoryComparator).map(category => `<option value="${category.id}">${category.name}</option>`).join('')}`;
+    ${ICONS.sort(categoryComparator).map(category => `<option value="${category.id}">${category.name}</option>`).join('')}`;
 
   document.querySelector('#categories').addEventListener('change', e => {
     loadCategory(document.querySelector('#categories').value);
