@@ -2,9 +2,9 @@
 let container = null;
 let drawer = null;
 
-const printIcon = icon => `<div class="icon-container ${!!icon.new ? 'icon-container--new' : ''}" data-key="${icon.key}">
-      <i class="icon ${icon.icon}"></i>
-      <span>${icon.name}</span>
+const printIcon = iconKey => `<div class="icon-container ${EIcons[iconKey].new ? 'icon-container--new' : ''}" data-key="${iconKey}">
+      <i class="icon ${EIcons[iconKey].icon}"></i>
+      <span>${EIcons[iconKey].name}</span>
     </div>`;
 
 const copyToClipboard = text => {
@@ -32,13 +32,15 @@ const registerIconEvents = () => {
 const closeDrawer = () => drawer.classList.remove('drawer--open');
 
 const openDrawer = iconKey => {
-  const icon = ICONS.map(cat => cat.icons).flat(Math.Infinity).filter(ic => ic.key === iconKey)[0];
-  const category = ICONS.filter(category => category.icons.map(icon => icon.key).includes(iconKey))[0];
-  if(!icon || !category) {
+  const icon = EIcons[iconKey];
+  
+  if(!icon) {
     console.error('No icon matching ' + iconKey);
     return;
   }
-  const associatedIcons = ICONS.map(cat => cat.icons).flat(Math.infinity).filter(ic => ic.name === icon.name && ic.key !== icon.key);
+
+  const categoryKeys = EIcons[iconKey].categories;
+  const associatedIconKeys = Object.keys(EIcons).filter(associatedIconKey => EIcons[associatedIconKey].name === icon.name && iconKey !== associatedIconKey);
 
   document.querySelector('#drawer-name').innerHTML = `
     <span id="drawer-name-icon" ${!!icon.color ? `style="background-color:${icon.color}"` : ''}><i class="icon ${icon.icon}"></i></span>
@@ -46,7 +48,7 @@ const openDrawer = iconKey => {
       <h3>
         ${icon.name}
       </h3>
-      <span id="drawer-name-category">Category: ${category.name}</span>
+      <span id="drawer-name-category">Categories: ${categoryKeys.map(categoryKey => ECategoryDetails[categoryKey].title)}</span>
       ${!!icon.color ? `<span>Official color: <span style="color: ${icon.color}">${icon.color}</span></span>
       <button class="to_clipboard" data-copy="${icon.color}"><img src="resources/images/copy.svg" /></button>` : ''}
     </div>`;
@@ -62,11 +64,11 @@ const openDrawer = iconKey => {
       </span>
       <button class="to_clipboard" data-copy="<i class='icon ${icon.icon}'></i>"><img src="resources/images/copy.svg" /></button>
 
-      ${!!associatedIcons.length ? `
+      ${associatedIconKeys.length ? `
         <div id="associated">
           <h4>Associated Icons:</h4>
-          ${associatedIcons.map(icon => `
-            <span class="associated-icon" ${!!icon.color ? `style="background-color:${icon.color}"` : ''} data-key="${icon.key}"><i class="icon ${icon.icon}"></i></span>
+          ${associatedIconKeys.map(iconKey => `
+            <span class="associated-icon" ${EIcons[iconKey].color ? `style="background-color:${EIcons[iconKey].color}"` : ''} data-key="${iconKey}"><i class="icon ${EIcons[iconKey].icon}"></i></span>
           `).join('')}
         </div>
       ` : ''}
@@ -84,8 +86,8 @@ const iconComparator = (i1, i2) => {
 };
 
 const categoryComparator = (c1, c2) => {
-  if(c1.name > c2.name) { return 1 }
-  if(c1.name < c2.name) { return -1 }
+  if(ECategoryDetails[c1].title > ECategoryDetails[c2].title) { return 1 }
+  if(ECategoryDetails[c1].title < ECategoryDetails[c2].title) { return -1 }
   return 0;
 };
 
@@ -95,28 +97,22 @@ const registerIconListEvents = () => {
   }));
 };
 
-const showIcons = icons => {
-  container.innerHTML = icons.sort(iconComparator).map(printIcon).join('');
+const showIcons = iconKeys => {
+  container.innerHTML = iconKeys.sort(iconComparator).map(printIcon).join('');
 };
 
-const loadCategory = category => {
-  if(category === 'all') {
-    showIcons(ICONS.map(category => category.icons).flat(Math.infinity));
+const loadCategory = categoryKey => {
+  if(categoryKey === '') {
+    showIcons(Object.keys(EIcons));
   }
   else {
-    if(!!ICONS.filter(iconCategory => iconCategory.id === category).length) {
-      showIcons(ICONS.filter(iconCategory => iconCategory.id === category)[0].icons);
-    }
-    else {
-      console.error('Unknown category : ' + category);
-      return;
-    }
+    showIcons(Object.keys(EIcons).filter(iconKey => EIcons[iconKey].categories.includes(categoryKey)));
   }
   registerIconListEvents();
 };
 
 (() => {
-  document.querySelector('#icon-number').innerHTML = ICONS.map(category => category.icons).flat(Math.Infinity).length;
+  document.querySelector('#icon-number').innerHTML = Object.keys(EIcons).length;
   container = document.querySelector('#container');
   drawer = document.querySelector('#drawer');
 
@@ -124,11 +120,11 @@ const loadCategory = category => {
 
   document.querySelector('#categories').innerHTML = `
     <option value="all">All</option>
-    ${ICONS.sort(categoryComparator).map(category => `<option value="${category.id}">${category.name}</option>`).join('')}`;
+    ${Object.keys(ECategory).sort(categoryComparator).map(categoryKey => `<option value="${categoryKey}">${ECategoryDetails[categoryKey].title}</option>`).join('')}`;
 
   document.querySelector('#categories').addEventListener('change', e => {
     loadCategory(document.querySelector('#categories').value);
   });
 
-  loadCategory('all');
+  loadCategory('');
 })();
