@@ -1,1 +1,7 @@
-<svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0, 0, 400,400"><g id="svgg"><path id="path0" d="M138.840 57.857 L 91.497 105.238 79.654 188.095 L 67.812 270.952 127.382 330.622 L 186.953 390.292 257.048 343.603 C 295.600 317.925,327.560 296.528,328.070 296.054 C 328.647 295.518,311.069 277.264,281.407 247.598 L 233.818 200.001 269.524 164.285 L 305.230 128.570 246.190 69.523 C 213.717 37.047,186.931 10.476,186.666 10.476 C 186.401 10.476,164.879 31.798,138.840 57.857 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="svgg">
+        <path id="path0" d="M91.497,105.238L67.812,270.952L186.953,390.292C186.953,390.292 327.56,296.528 328.07,296.054C328.647,295.518 233.818,200.001 233.818,200.001L305.23,128.57C305.23,128.57 186.931,10.476 186.666,10.476"/>
+    </g>
+</svg>

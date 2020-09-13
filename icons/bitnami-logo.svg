@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg"
-   version="1.1"
-   width="426"
-   height="426"
-   sodipodi:docname="image2vector (2).svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
-  <metadata
-     id="metadata9">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs7" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="716"
-     inkscape:window-height="480"
-     id="namedview5"
-     showgrid="false"
-     inkscape:zoom="0.55399061"
-     inkscape:cx="213"
-     inkscape:cy="213"
-     inkscape:window-x="384"
-     inkscape:window-y="195"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg" />
-  <g
-     id="svgg"
-     transform="translate(12.635593,9.0254237)">
-    <path
-       id="path0"
-       d="m 187.793,4.42 c -2.324,0.8 -10.239,4.887 -17.588,9.081 l -13.364,7.626 -0.017,42.958 c -0.009,23.626 0.14,42.957 0.332,42.957 0.192,0 9.941,-5.525 21.664,-12.278 l 21.315,-12.279 16.13,9.288 c 8.871,5.108 31.859,18.345 51.085,29.414 l 34.955,20.128 -0.002,59.624 -0.003,59.624 -50.132,28.873 c -27.573,15.88 -50.696,29.063 -51.385,29.297 -0.689,0.233 -24.069,-12.774 -51.957,-28.905 L 98.122,260.498 97.883,157.948 C 97.752,101.546 97.362,55.399 97.018,55.399 c -0.345,0 -13.97,7.698 -30.278,17.106 -31.406,18.117 -37.61,22.689 -41.552,30.616 l -2.183,4.391 v 89.671 c 0,100.774 -0.404,94.729 7.081,105.938 5.303,7.941 4.617,7.505 82.02,52.14 76.637,44.193 76.505,44.126 87.425,44.211 11.813,0.092 12.559,-0.279 88.532,-44.086 78.78,-45.425 80.433,-46.533 85.86,-57.556 l 3.072,-6.24 0.258,-87.602 C 377.557,100.916 378.021,105.229 365.317,93.089 360.1,88.103 218.872,6.339 211.801,4.211 205.869,2.425 193.268,2.535 187.793,4.42 m -9.859,158.9 -20.657,12.058 -0.234,25.222 -0.234,25.222 21.227,12.206 c 11.675,6.714 21.71,12.207 22.3,12.207 0.59,0 10.474,-5.419 21.964,-12.043 l 20.892,-12.042 -0.035,-25.516 -0.035,-25.517 -20.959,-11.971 c -11.527,-6.585 -21.546,-11.952 -22.265,-11.928 -0.718,0.025 -10.602,5.471 -21.964,12.102"
-       inkscape:connector-curvature="0"
-       style="fill:#000000;fill-rule:evenodd;stroke:none" />
-  </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 426 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="svgg" transform="matrix(1,0,0,1,12.6356,9.02542)">
+        <path id="path0" d="M187.793,4.42C185.469,5.22 156.841,21.127 156.841,21.127C156.841,21.127 156.964,107.042 157.156,107.042C157.348,107.042 200.135,82.485 200.135,82.485L302.305,141.315L302.3,260.563C302.3,260.563 201.472,318.499 200.783,318.733C200.094,318.966 98.122,260.498 98.122,260.498C98.122,260.498 97.362,55.399 97.018,55.399C96.673,55.399 29.13,95.194 25.188,103.121L23.005,107.512C23.005,107.512 22.601,291.912 30.086,303.121C35.389,311.062 188.611,399.387 199.531,399.472C211.344,399.564 376.995,291.59 376.995,291.59C376.995,291.59 378.021,105.229 365.317,93.089C360.1,88.103 218.872,6.339 211.801,4.211C205.869,2.425 193.268,2.535 187.793,4.42M157.277,175.378L156.809,225.822C156.809,225.822 199.746,250.235 200.336,250.235C200.926,250.235 243.192,226.15 243.192,226.15L243.122,175.117C243.122,175.117 200.617,151.194 199.898,151.218"/>
+    </g>
 </svg>

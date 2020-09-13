@@ -1,1 +1,7 @@
-<svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0, 0, 400,400"><g id="svgg"><path id="path0" d="M70.661 122.228 L 1.778 191.128 70.225 259.558 L 138.672 327.988 207.556 259.105 L 276.439 190.222 207.991 121.775 L 139.544 53.328 70.661 122.228 M245.766 67.985 L 231.108 82.642 284.877 136.432 L 338.645 190.222 284.864 244.025 L 231.083 297.828 246.223 312.890 L 261.364 327.952 329.660 259.673 L 397.956 191.394 330.393 122.808 C 293.234 85.086,262.289 54.021,261.627 53.774 C 260.966 53.528,253.828 59.923,245.766 67.985 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="svgg">
+        <path id="path0" d="M1.778,191.128L138.672,327.988L276.439,190.222L139.544,53.328M231.108,82.642L338.645,190.222L231.083,297.828L261.364,327.952L397.956,191.394C397.956,191.394 262.289,54.021 261.627,53.774"/>
+    </g>
+</svg>
