@@ -467,6 +467,7 @@ const EIcons = {
   elasticCloud: { icon: "icon-elastic-cloud-logo", type: EIconType.LOGO, name: "Elastic Cloud", new: true, color: '#00BFB3', categories:[ECategory.CLOUD] },
   elasticCloudEnterprise: { icon: "icon-elastic-cloud-enterprise-logo", type: EIconType.LOGO, name: "Elastic Cloud Enterprise", new: true, color: '#1BA9F5', categories:[ECategory.CLOUD] },
   elasticCloudKubernetes: { icon: "icon-elastic-cloud-kubernetes-logo", type: EIconType.LOGO, name: "Elastic Cloud Kubernetes", new: true, color: '#F04E98', categories:[ECategory.CLOUD] },
+  elasticCloudKubernetes: { icon: "icon-elastic-enterprise-search-logo", type: EIconType.LOGO, name: "Elastic Enterprise Search", new: true, color: '#00BFB3', categories:[ECategory.CLOUD] },
   elasticObservability: { icon: "icon-elastic-observability-logo", type: EIconType.LOGO, name: "Elastic Observability", new: true, color: '#0077CC', categories:[ECategory.DEVOPS_QUALITY] },
   elasticSearch: { icon: "icon-elastic-search-logo", type: EIconType.LOGO, name: "Elastic Search", new: false, color: '#07A5DE', categories:[ECategory.DATABASES] },
   elasticSecurity: { icon: "icon-elastic-security-logo", type: EIconType.LOGO, name: "Elastic Security", new: true, color: '#FA744E', categories:[ECategory.ANALYSIS_MARKETING] },
