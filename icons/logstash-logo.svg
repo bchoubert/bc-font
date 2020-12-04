@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1.12496,0,0,1.12496,6.12586,1.06365)">
-        <g id="icon---product-logo---64x64px---logstash---color" serif:id="icon-/-product-logo-/-64x64px-/-logstash-/-color">
-            <g id="logo-logstash-64x64-color">
-                <path id="Fill-1" d="M22,34L0,34L0,0L2,0C13.046,0 22,8.954 22,20L22,34Z"/>
-                <g id="Fill-4" transform="matrix(0.81572,0,0,0.81572,2.02708,8.20045)">
+        <g>
+            <g>
+                <path d="M22,34L0,34L0,0L2,0C13.046,0 22,8.954 22,20L22,34Z"/>
+                <g transform="matrix(0.81572,0,0,0.81572,2.02708,8.20045)">
                     <path d="M21,55L22,55L22,34L0,34C0,45.598 9.402,55 21,55"/>
                 </g>
-                <path id="Fill-7" d="M27,55L46,55L46,34L27,34L27,55Z"/>
+                <path d="M27,55L46,55L46,34L27,34L27,55Z"/>
             </g>
         </g>
     </g>

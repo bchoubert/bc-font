@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 515 515" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g id="svgg">
-        <path id="path0" d="M135.506,122C135.506,122 256.947,243 257.5,243C258.053,243 379.496,121.998 379.496,121.998L257.496,-0.002M-0,257.506L122,379.494C122,379.494 243,258.053 243,257.5C243,256.514 122.976,136 121.994,136M272,257.506C272,258.056 393,379.494 393,379.494L515,257.506C515,257.506 393.278,136 393,136M135.504,393.002L257.504,515.002L379.494,393C379.494,393 258.053,272 257.5,272"/>
+<svg width="100%" height="100%" viewBox="0 0 515 515" version="1.1" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <path d="M135.506,122C135.506,122 256.947,243 257.5,243C258.053,243 379.496,121.998 379.496,121.998L257.496,-0.002M-0,257.506L122,379.494C122,379.494 243,258.053 243,257.5C243,256.514 122.976,136 121.994,136M272,257.506C272,258.056 393,379.494 393,379.494L515,257.506C515,257.506 393.278,136 393,136M135.504,393.002L257.504,515.002L379.494,393C379.494,393 258.053,272 257.5,272"/>
     </g>
 </svg>
