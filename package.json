@@ -1,6 +1,6 @@
 {
   "name": "bc-font",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "950+ icons from different CS fields are available.\r See the entire list [here](https://bchoubert.github.io/bc-font/index.html).",
   "main": "index.js",
   "scripts": {
