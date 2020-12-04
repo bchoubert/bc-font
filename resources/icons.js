@@ -1,4 +1,4 @@
-const ECategory = {
+export const ECategory = {
   PERSONAL: 'PERSONAL',
   OS: 'OS',
   BRANDS: 'BRANDS',
@@ -28,7 +28,7 @@ const ECategory = {
   APIS: 'APIS'
 };
 
-const ECategoryDetails = {
+export const ECategoryDetails = {
   PERSONAL: {
     title: 'Personal'
   },
@@ -112,20 +112,20 @@ const ECategoryDetails = {
   }
 };
 
-const EIconType = {
+export const EIconType = {
   TYPE: 'TYPE',
   LOGO: 'LOGO',
   FULL: 'FULL'
 };
 
-const EIconQuality = {
+export const EIconQuality = {
   GREAT: 'GREAT', // Very good icon quality
   OK: 'OK', // Very small artifacts that are only visible when zoomed
   BAD: 'BAD', // Some artifacts that are always visible and affect visual impact, even when not zoomed in
 };
 
 
-const EIcons = {
+export const EIcons = {
   _3dsmax: { icon: "icon-3dsmax-full", type: EIconType.FULL, name: "3ds Max", website: 'https://www.autodesk.co.uk/products/3ds-max/overview', new: true, color: '#00A5A5', categories:[ECategory.GRAPHICS_3D], quality: EIconQuality.GREAT },
   abas: { icon: "icon-abas-type", type: EIconType.TYPE, name: "Abas", website: "https://abas-erp.com/", new: false, color: '#1BBAA5', categories:[ECategory.ERP], quality: EIconQuality.GREAT },
   abasAlt: { icon: "icon-abas-full", type: EIconType.FULL, name: "Abas", website: "https://abas-erp.com/", new: false, color: '#1BBAA5', categories:[ECategory.ERP], quality: EIconQuality.GREAT },
