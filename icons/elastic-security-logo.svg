@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g id="logo-security-24-color">
-        <path id="Shape" d="M8,5L8,-0L22,-0L22,12.755C22,15.52 17.068,17.416 15,18L15,5L8,5Z"/>
-        <g id="Path" transform="matrix(0.705956,0,0,0.705956,2.64639,3.82257)">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <path d="M8,5L8,-0L22,-0L22,12.755C22,15.52 17.068,17.416 15,18L15,5L8,5Z"/>
+        <g transform="matrix(0.705956,0,0,0.705956,2.64639,3.82257)">
             <path d="M6,8L12,8L12,18C9.762,17.185 6,15.317 6,12.969L6,8Z"/>
         </g>
-        <path id="Path1" serif:id="Path" d="M12,24C5.333,21.076 2,18.185 2,15.326L2,8L6,8L6,12.969C6,15.317 9.762,17.185 12,18L12,24Z"/>
+        <path d="M12,24C5.333,21.076 2,18.185 2,15.326L2,8L6,8L6,12.969C6,15.317 9.762,17.185 12,18L12,24Z"/>
     </g>
 </svg>
