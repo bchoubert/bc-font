@@ -1,6 +1,17 @@
 # BC-Font
 
-[![npm](https://img.shields.io/npm/v/bc-font)](https://www.npmjs.com/package/bc-font)
+![GitHub issues](https://img.shields.io/github/issues-raw/bchoubert/bc-font?style=for-the-badge)
+
+![Number of Icons](https://img.shields.io/badge/%23%20of%20Icons-1177-green?style=for-the-badge)
+
+![GitHub License](https://img.shields.io/github/license/bchoubert/bc-font?style=for-the-badge)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/bchoubert/bc-font?style=for-the-badge)
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/bchoubert/bc-font?label=GITHUB%20RELEASE&style=for-the-badge)
+![npm](https://img.shields.io/npm/v/bc-font?label=NPM%20RELEASE&style=for-the-badge)
+
+![npm downloads](https://img.shields.io/npm/dw/bc-font?style=for-the-badge)
 
 # Which icons are included ?
 
