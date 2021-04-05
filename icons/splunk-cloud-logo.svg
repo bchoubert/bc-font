@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg26"
+   version="1.1"
+   focusable="false"
+   preserveAspectRatio="xMidYMid meet"
+   width="100%"
+   height="100%"
+   fit=""
+   viewBox="0 0 24 24">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0 158.35 156.56 0 -58641.43 48882.61)"
+       y2="374.58"
+       x2="-308.49"
+       y1="374.58"
+       x1="-308.65"
+       id="logos-24-colored-splunk-section-g">
+      <stop
+         id="stop2"
+         stop-color="#f99d1c"
+         offset="0" />
+      <stop
+         id="stop4"
+         stop-color="#f99d1c"
+         offset=".11" />
+      <stop
+         id="stop6"
+         stop-color="#f15a22"
+         offset=".27" />
+      <stop
+         id="stop8"
+         stop-color="#ec008c"
+         offset=".55" />
+      <stop
+         id="stop10"
+         stop-color="#ec008c"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#logos-24-colored-splunk-section-g"
+       gradientTransform="matrix(0 181.16 179.12 0 -67025.67 55863.4)"
+       y2="374.25"
+       x2="-308.18"
+       y1="374.25"
+       x1="-308.34"
+       id="logos-24-colored-splunk-section-j" />
+    <linearGradient
+       xlink:href="#logos-24-colored-splunk-section-g"
+       gradientTransform="matrix(0 201.88 199.6 0 -74636.8 62202.69)"
+       y2="374"
+       x2="-307.95"
+       y1="374"
+       x1="-308.12"
+       id="logos-24-colored-splunk-section-l" />
+    <linearGradient
+       xlink:href="#logos-24-colored-splunk-section-g"
+       gradientTransform="matrix(0 151.78 150.06 0 -56129.98 46870.63)"
+       y2="374.18"
+       x2="-308.6"
+       y1="374.18"
+       x1="-308.76"
+       id="logos-24-colored-splunk-section-o" />
+  </defs>
+  <path
+     id="path18"
+     d="M 12.900391 0 L 12.900391 24 L 16.609375 24 L 16.609375 0 L 12.900391 0 z M 7.390625 3.359375 L 7.390625 24 L 11.099609 24 L 11.099609 3.359375 L 7.390625 3.359375 z M 1.8808594 7.0605469 L 1.8808594 24 L 5.5898438 24 L 5.5898438 7.0605469 L 1.8808594 7.0605469 z M 18.410156 8.1308594 L 18.410156 24 L 22.119141 24 L 22.119141 8.1308594 L 18.410156 8.1308594 z " />
+</svg>
