@@ -518,6 +518,8 @@ export const EIcons = {
   enosAlt: { icon: "icon-enos-logo-alt", type: EIconType.LOGO, name: "E-nos", website: "", new: false, color: '#43A047', categories:[ECategory.PERSONAL], quality: EIconQuality.BAD },
   erlang: { icon: "icon-erlang-logo", type: EIconType.LOGO, name: "erlang", website: "https://www.erlang.org/", new: false, color: '#A90533', categories:[ECategory.BACK_END], quality: EIconQuality.GREAT },
   esri: { icon: "icon-esri-logo", type: EIconType.LOGO, name: "ESRI", website: "https://www.esri.com/en-us/home", new: false, color: '#66B4E4', categories:[ECategory.GIS_GEO], quality: EIconQuality.GREAT },
+  europeanCommission: { icon: "icon-european-commission-logo", type: EIconType.LOGO, name: "European Commission", website: "https://commission.europa.eu/", new: true, color: '#004494', categories:[ECategory.BRANDS], quality: EIconQuality.GREAT },
+  europeanCommissionAlt: { icon: "icon-european-commission-full", type: EIconType.FULL, name: "European Commission", website: "https://commission.europa.eu/", new: true, color: '#004494', categories:[ECategory.BRANDS], quality: EIconQuality.GREAT },
   evento: { icon: "icon-evento-logo", type: EIconType.LOGO, name: "Evento", website: "", new: false, color: '#E91E63', categories:[ECategory.PERSONAL], quality: EIconQuality.GREAT },
   eventoAlt: { icon: "icon-evento-full", type: EIconType.FULL, name: "Evento", website: "", new: false, color: '#E91E63', categories:[ECategory.PERSONAL], quality: EIconQuality.OK },
   eventoAlt2: { icon: "icon-evento-full-alt", type: EIconType.LOGO, name: "Evento", website: "", new: false, color: '#E91E63', categories:[ECategory.PERSONAL], quality: EIconQuality.GREAT },
