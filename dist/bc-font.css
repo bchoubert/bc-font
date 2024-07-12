@@ -781,7 +781,7 @@ url("bc-font.svg#bc-font") format("svg");
 .icon-cisco-logo:before {
 	content: "\f1fe";
 }
-.icon-cissp_full:before {
+.icon-cissp-full:before {
 	content: "\f1ff";
 }
 .icon-citrix-full:before {
